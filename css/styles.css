@@ -4,10 +4,6 @@
 /* title color: #FFFFFF */
 /* footer color: CORNFLOWER #E7E9FC */
 
-ul {
-    list-style: none
-}
-
 :root {
     --primary-text-color: #434455;
     --main-titles-color: #2E2F42;
@@ -22,7 +18,7 @@ ul {
 }
 
 /* for body edition*/
-.page-1 {
+.body-text {
     font-family: Roboto, sans-serif;
     font-size: 16px;
     font-weight: 400;
@@ -34,6 +30,9 @@ ul {
 }
 
 /*for top*/
+ul {
+    list-style: none
+}
 
 .top {
     border-bottom: 1px solid var(--border-bottom-color);
@@ -106,25 +105,32 @@ ul {
     letter-spacing: 0.02em;
 }
 
-.address1{
+.address-link:hover,
+.address-link:focus {
+    color: var(--active-link-color);
+    
+}
+
+.address-link{
     font-family: 'Roboto';
+    text-decoration: none;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
-    text-decoration: none;
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
-    
 }
+
+
 
 /* for section 1 */
 
-.section1 {
+.section-one {
     background: var(--primary-background-color);
 }
 
-.section1 .main-title {
+.section-one .main-title {
     font-size: 56px;
     font-weight: 700;
     line-height: 1.07;
@@ -133,7 +139,7 @@ ul {
 
 }
 
-.section1 .main-button {
+.section-one .main-button {
     background: var(--active-link-color);
     box-shadow: 0px 4px 4px var(--box-shadow-color);
     border-radius: 4px;
@@ -146,7 +152,7 @@ ul {
     background: var(--background-buttons-color);
 }
 
-.section1-portfolio .next-button {
+.section-one-portfolio .next-button {
     background: var(--another-background-color);
     border: 1px solid var(--border-bottom-color);
     border-radius: 4px;
@@ -164,7 +170,7 @@ ul {
 
 /*for section 2*/
 
-.title-section2{
+.title-section-two{
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -176,7 +182,7 @@ ul {
     clip-path: inset(50%);
     margin: -1px;
 }
-.title3 {
+.title-three {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -186,14 +192,14 @@ ul {
 
 /*for other*/
 
-.title2 {
+.title-two {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.1;
     color: var(--main-titles-color);
 }
 
-.section4 {
+.section-four {
     background: var(--another-background-color);
 }
 
