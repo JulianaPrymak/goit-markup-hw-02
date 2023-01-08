@@ -29,10 +29,11 @@
     background: var(--primary-white-color);
 }
 
-/*for top*/
 ul {
     list-style: none
 }
+/*for top*/
+
 
 .top {
     border-bottom: 1px solid var(--border-bottom-color);
